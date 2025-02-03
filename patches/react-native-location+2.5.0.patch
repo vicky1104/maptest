@@ -1,0 +1,648 @@
+diff --git a/node_modules/react-native-location/android/.classpath b/node_modules/react-native-location/android/.classpath
+new file mode 100644
+index 0000000..bbe97e5
+--- /dev/null
++++ b/node_modules/react-native-location/android/.classpath
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<classpath>
++	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
++	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
++	<classpathentry kind="output" path="bin/default"/>
++</classpath>
+diff --git a/node_modules/react-native-location/android/.project b/node_modules/react-native-location/android/.project
+new file mode 100644
+index 0000000..cfa2b3d
+--- /dev/null
++++ b/node_modules/react-native-location/android/.project
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<projectDescription>
++	<name>react-native-location</name>
++	<comment>Project react-native-location created by Buildship.</comment>
++	<projects>
++	</projects>
++	<buildSpec>
++		<buildCommand>
++			<name>org.eclipse.jdt.core.javabuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++		<buildCommand>
++			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++	</buildSpec>
++	<natures>
++		<nature>org.eclipse.jdt.core.javanature</nature>
++		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
++	</natures>
++</projectDescription>
+diff --git a/node_modules/react-native-location/android/.settings/org.eclipse.buildship.core.prefs b/node_modules/react-native-location/android/.settings/org.eclipse.buildship.core.prefs
+new file mode 100644
+index 0000000..1675490
+--- /dev/null
++++ b/node_modules/react-native-location/android/.settings/org.eclipse.buildship.core.prefs
+@@ -0,0 +1,2 @@
++connection.project.dir=../../../android
++eclipse.preferences.version=1
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/results.bin b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/BuildConfig.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/BuildConfig.dex
+new file mode 100644
+index 0000000..72ddcd2
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/BuildConfig.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule$1.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule$1.dex
+new file mode 100644
+index 0000000..4771824
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule$1.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule.dex
+new file mode 100644
+index 0000000..288eeb8
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationModule.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationPackage.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationPackage.dex
+new file mode 100644
+index 0000000..58642f6
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationPackage.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationProvider.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationProvider.dex
+new file mode 100644
+index 0000000..f033d5b
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNLocationProvider.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.dex
+new file mode 100644
+index 0000000..63c5c4a
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.dex
+new file mode 100644
+index 0000000..24320bf
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.dex
+new file mode 100644
+index 0000000..c8cac2d
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.dex
+new file mode 100644
+index 0000000..42d321a
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.dex
+new file mode 100644
+index 0000000..0f80382
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.dex
+new file mode 100644
+index 0000000..a26e397
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider.dex
+new file mode 100644
+index 0000000..6c0d162
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/RNStandardLocationProvider.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/Utils.dex b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/Utils.dex
+new file mode 100644
+index 0000000..0ab1f6a
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/com/github/reactnativecommunity/location/Utils.dex differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..be52e2b
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/73c638a3894bf4b50649ce611ea0871d/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/results.bin b/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..ac31961
+Binary files /dev/null and b/node_modules/react-native-location/android/build/.transforms/e0938d9539b243050ce66321f7abac22/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-location/android/build/generated/source/buildConfig/debug/com/github/reactnativecommunity/location/BuildConfig.java b/node_modules/react-native-location/android/build/generated/source/buildConfig/debug/com/github/reactnativecommunity/location/BuildConfig.java
+new file mode 100644
+index 0000000..77e8c25
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/generated/source/buildConfig/debug/com/github/reactnativecommunity/location/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.github.reactnativecommunity.location;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.github.reactnativecommunity.location";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-location/android/build/generated/source/buildConfig/release/com/github/reactnativecommunity/location/BuildConfig.java b/node_modules/react-native-location/android/build/generated/source/buildConfig/release/com/github/reactnativecommunity/location/BuildConfig.java
+new file mode 100644
+index 0000000..4980677
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/generated/source/buildConfig/release/com/github/reactnativecommunity/location/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.github.reactnativecommunity.location;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = false;
++  public static final String LIBRARY_PACKAGE_NAME = "com.github.reactnativecommunity.location";
++  public static final String BUILD_TYPE = "release";
++}
+diff --git a/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..56cb81a
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.github.reactnativecommunity.location" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..2926e48
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.github.reactnativecommunity.location",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..56cb81a
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.github.reactnativecommunity.location" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output-metadata.json b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..79938a5
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.github.reactnativecommunity.location",
++  "variantName": "release",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/react-native-location/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-location/android/build/intermediates/aar_metadata/release/writeReleaseAarMetadata/aar-metadata.properties b/node_modules/react-native-location/android/build/intermediates/aar_metadata/release/writeReleaseAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/aar_metadata/release/writeReleaseAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json b/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/react-native-location/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..1b392bb
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..87c074f
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar b/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar
+new file mode 100644
+index 0000000..87c074f
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/react-native-location/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-location/android/build/intermediates/compile_symbol_list/release/generateReleaseRFile/R.txt b/node_modules/react-native-location/android/build/intermediates/compile_symbol_list/release/generateReleaseRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..eff9087
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Sat Feb 01 14:26:00 IST 2025
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..dc46d53
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..4ac9ed9
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..4a1da13
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-location/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..6168221
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties b/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties
+new file mode 100644
+index 0000000..624ea4c
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Sat Feb 01 19:56:26 IST 2025
+diff --git a/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml b/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+new file mode 100644
+index 0000000..1670001
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/build/generated/res/resValues/release"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/BuildConfig.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/BuildConfig.class
+new file mode 100644
+index 0000000..33c2501
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/BuildConfig.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule$1.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule$1.class
+new file mode 100644
+index 0000000..c3f06d5
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule.class
+new file mode 100644
+index 0000000..5e76597
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationModule.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationPackage.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationPackage.class
+new file mode 100644
+index 0000000..e3d5821
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationPackage.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationProvider.class
+new file mode 100644
+index 0000000..d1ad5fe
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class
+new file mode 100644
+index 0000000..351de2a
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class
+new file mode 100644
+index 0000000..4459f53
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class
+new file mode 100644
+index 0000000..06a8098
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class
+new file mode 100644
+index 0000000..030d91b
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class
+new file mode 100644
+index 0000000..23c94e8
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class
+new file mode 100644
+index 0000000..123b623
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider.class
+new file mode 100644
+index 0000000..4bffa7d
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/RNStandardLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/Utils.class b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/Utils.class
+new file mode 100644
+index 0000000..f5ae827
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/github/reactnativecommunity/location/Utils.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/release/parseReleaseLocalResources/R-def.txt b/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/release/parseReleaseLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/local_only_symbol_list/release/parseReleaseLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..183d84e
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,11 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.github.reactnativecommunity.location" >
++4
++5    <uses-sdk android:minSdkVersion="16" />
++6
++7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++7-->/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:3-78
++7-->/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:20-76
++8
++9</manifest>
+diff --git a/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/release/processReleaseManifest/manifest-merger-blame-release-report.txt b/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/release/processReleaseManifest/manifest-merger-blame-release-report.txt
+new file mode 100644
+index 0000000..183d84e
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/manifest_merge_blame_file/release/processReleaseManifest/manifest-merger-blame-release-report.txt
+@@ -0,0 +1,11 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.github.reactnativecommunity.location" >
++4
++5    <uses-sdk android:minSdkVersion="16" />
++6
++7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++7-->/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:3-78
++7-->/Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:20-76
++8
++9</manifest>
+diff --git a/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..56cb81a
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.github.reactnativecommunity.location" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml b/node_modules/react-native-location/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..56cb81a
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.github.reactnativecommunity.location" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/react-native-location/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/navigation_json/release/extractDeepLinksRelease/navigation.json b/node_modules/react-native-location/android/build/intermediates/navigation_json/release/extractDeepLinksRelease/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/navigation_json/release/extractDeepLinksRelease/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/release/generateReleaseResources/nestedResourcesValidationReport.txt b/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/release/generateReleaseResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/nested_resources_validation_report/release/generateReleaseResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/BuildConfig.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/BuildConfig.class
+new file mode 100644
+index 0000000..33c2501
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/BuildConfig.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule$1.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule$1.class
+new file mode 100644
+index 0000000..c3f06d5
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule.class
+new file mode 100644
+index 0000000..5e76597
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationModule.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationPackage.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationPackage.class
+new file mode 100644
+index 0000000..e3d5821
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationPackage.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationProvider.class
+new file mode 100644
+index 0000000..d1ad5fe
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class
+new file mode 100644
+index 0000000..351de2a
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class
+new file mode 100644
+index 0000000..4459f53
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$2.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class
+new file mode 100644
+index 0000000..06a8098
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider$3.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class
+new file mode 100644
+index 0000000..030d91b
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNPlayServicesLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class
+new file mode 100644
+index 0000000..23c94e8
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$1.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class
+new file mode 100644
+index 0000000..123b623
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider$LocationOptions.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider.class
+new file mode 100644
+index 0000000..4bffa7d
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/RNStandardLocationProvider.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/Utils.class b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/Utils.class
+new file mode 100644
+index 0000000..f5ae827
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/com/github/reactnativecommunity/location/Utils.class differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..a43d69d
+Binary files /dev/null and b/node_modules/react-native-location/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..674d88f
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++com.github.reactnativecommunity.location
+diff --git a/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/release/generateReleaseRFile/package-aware-r.txt b/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/release/generateReleaseRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..674d88f
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/intermediates/symbol_list_with_package_name/release/generateReleaseRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++com.github.reactnativecommunity.location
+diff --git a/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..f64b573
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,21 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:1-4:12
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:1-4:12
++	package
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:70-120
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:11-69
++uses-permission#android.permission.ACCESS_COARSE_LOCATION
++ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:3-78
++	android:name
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:20-76
++uses-sdk
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-release-report.txt b/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-release-report.txt
+new file mode 100644
+index 0000000..f64b573
+--- /dev/null
++++ b/node_modules/react-native-location/android/build/outputs/logs/manifest-merger-release-report.txt
+@@ -0,0 +1,21 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:1-4:12
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:1-4:12
++	package
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:70-120
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:2:11-69
++uses-permission#android.permission.ACCESS_COARSE_LOCATION
++ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:3-78
++	android:name
++		ADDED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml:3:20-76
++uses-sdk
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/iwanttechnologies/Documents/Projects/Frontend/React-Native/maptest/node_modules/react-native-location/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-location/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-location/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..861cf79
+Binary files /dev/null and b/node_modules/react-native-location/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
