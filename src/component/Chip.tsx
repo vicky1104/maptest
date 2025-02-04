@@ -13,7 +13,8 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Entypo from 'react-native-vector-icons/Entypo';
 import Feather from 'react-native-vector-icons/Feather';
 import {useLocation} from '../context/LocationContext';
-import {MAP_API_KEY} from '../Constant/Constant';
+import Config from 'react-native-config';
+const mapKey = Config.MAP_API_KEY;
 
 const Chip = () => {
   const {location, setListData, listData, keyword, setKeyWord, clearList} =
@@ -62,11 +63,18 @@ const Chip = () => {
     if (!location || !searchKeyword) return;
 
     setKeyWord(searchKeyword);
+    console.warn(mapKey, 'dsdbjsvdghs');
     const res = await fetch(
-      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=${MAP_API_KEY}&sensor=false&location=${location.latitude},${location.longitude}&radius=5000&keyword=${searchKeyword}`,
+      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=${mapKey}&sensor=false&location=${location.latitude},${location.longitude}&radius=5000&keyword=${searchKeyword}`,
+    );
+    console.warn(
+      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=${mapKey}&sensor=false&location=${location.latitude},${location.longitude}&radius=5000&keyword=${searchKeyword}`,
     );
     const data = await res.json();
+    console.warn(mapKey, 'after');
+
     setListData(data?.results);
+    console.warn(data?.results);
   };
 
   useEffect(() => {

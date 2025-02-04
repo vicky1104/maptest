@@ -5,7 +5,6 @@ import {useLocation} from '../context/LocationContext';
 // @ts-ignore
 import Stars from 'react-native-stars';
 import {getImage} from '../utils';
-import {BottomSheetFlashListProps} from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheetScrollable/BottomSheetFlashList';
 
 const MapData = () => {
   const {listData} = useLocation();
@@ -55,13 +54,14 @@ const MapData = () => {
 
   useEffect(() => {
     if (listData?.length > 0) {
+      bottomSheetRef.current?.expand();
       bottomSheetRef.current?.snapToIndex(0);
     } else {
       flatSheetRef.current.scrollToOffset({animated: true, offset: 0});
       bottomSheetRef?.current?.close();
     }
   }, [listData]);
-  // console.warn(listData, 'listData');
+  console.warn(listData, 'listData');
   return (
     <BottomSheet
       index={-1}
